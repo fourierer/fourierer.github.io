@@ -14,9 +14,32 @@ I am an algorithm engineer at **Alibaba**, working on computer vision and multim
 
 ## Education
 
-* M.S. in Computer Technology, Institute of Automation, Chinese Academy of Sciences, 2019–2022
-* B.S. in Computer Science and Technology (Double Degree), College of Intelligence and Computing, Tianjin University, 2016–2019
-* B.S. in Mathematics and Applied Mathematics, School of Mathematics, Tianjin University, 2015–2019
+<div class="edu-row">
+  <img src="/images/logos/casia.png" alt="CASIA" class="edu-logo" />
+  <div class="edu-info">
+    <span class="edu-degree">M.S. in Computer Technology</span>
+    <span class="edu-school">Institute of Automation, Chinese Academy of Sciences</span>
+    <span class="edu-year">2019 – 2022</span>
+  </div>
+</div>
+
+<div class="edu-row">
+  <img src="/images/logos/tju.png" alt="Tianjin University" class="edu-logo" />
+  <div class="edu-info">
+    <span class="edu-degree">B.S. in Computer Science and Technology (Double Degree)</span>
+    <span class="edu-school">College of Intelligence and Computing, Tianjin University</span>
+    <span class="edu-year">2016 – 2019</span>
+  </div>
+</div>
+
+<div class="edu-row">
+  <img src="/images/logos/tju.png" alt="Tianjin University" class="edu-logo" />
+  <div class="edu-info">
+    <span class="edu-degree">B.S. in Mathematics and Applied Mathematics</span>
+    <span class="edu-school">School of Mathematics, Tianjin University</span>
+    <span class="edu-year">2015 – 2019</span>
+  </div>
+</div>
 
 ## Work Experience
 
@@ -34,10 +57,37 @@ I am an algorithm engineer at **Alibaba**, working on computer vision and multim
 
 ## Publications
 
-1. **Physical Plausibility Reasoning via HCM-GRPO: Empowering Compact Model for Superior Performance**, Pattern Recognition, 2026. (Corresponding author, co-first author)
-2. **TSRFormer: Table Structure Recognition with Transformers**, ACM MM, 2022. (Second author)
-3. **Monkey Action Recognition Based on Global Spatiotemporal Encode Network**, Journal of Graphics, 2022. (First author)
-4. **Caged Monkey Dataset: A New Benchmark for Caged Monkey Pose Estimation**, PRCV, 2022. (First author)
+<div class="pub-row">
+  <img src="/images/papers/HCM-GRPO.png" alt="HCM-GRPO" class="pub-img" />
+  <div class="pub-info">
+    <span class="pub-title">Physical Plausibility Reasoning via HCM-GRPO: Empowering Compact Model for Superior Performance</span>
+    <span class="pub-venue"><i>Pattern Recognition</i>, 2026. (Corresponding author, co-first author)</span>
+  </div>
+</div>
+
+<div class="pub-row">
+  <img src="/images/papers/tsrformer.png" alt="TSRFormer" class="pub-img" />
+  <div class="pub-info">
+    <span class="pub-title">TSRFormer: Table Structure Recognition with Transformers</span>
+    <span class="pub-venue"><i>ACM MM</i>, 2022. (Second author)</span>
+  </div>
+</div>
+
+<div class="pub-row">
+  <img src="/images/papers/GSEN.png" alt="Monkey Action Recognition" class="pub-img" />
+  <div class="pub-info">
+    <span class="pub-title">Monkey Action Recognition Based on Global Spatiotemporal Encode Network</span>
+    <span class="pub-venue"><i>Journal of Graphics</i>, 2022. (First author)</span>
+  </div>
+</div>
+
+<div class="pub-row">
+  <img src="/images/papers/CagedMonkeyPose.png" alt="Caged Monkey Dataset" class="pub-img" />
+  <div class="pub-info">
+    <span class="pub-title">Caged Monkey Dataset: A New Benchmark for Caged Monkey Pose Estimation</span>
+    <span class="pub-venue"><i>PRCV</i>, 2022. (First author)</span>
+  </div>
+</div>
 
 ## Skills
 
