@@ -43,17 +43,23 @@ I am an algorithm engineer at **Alibaba**, working on computer vision and multim
 
 ## Work Experience
 
-* **2022.07 – Present**: Algorithm Engineer (P6), Alibaba, Beijing
-  * Medical-scene OCR (DBNet + TrOCR), multimodal LLM attribute extraction (InternVL3-38B with SFT and self-developed DPA-GRPO), and AIGC spatial reasoning & screening (Qwen2.5-VL-3B with SFT and self-developed HCM-GRPO)
-* **2021.06 – 2022.04**: Research Intern, Microsoft Research Asia, Beijing
-  * Proposed TSRFormer, a point-regression based table structure recognition method with transformers (ACM MM 2022)
+<div class="edu-row">
+  <img src="/images/logos/placeholder.png" alt="Alibaba" class="edu-logo" />
+  <div class="edu-info">
+    <span class="edu-degree">Algorithm Engineer (P6)</span>
+    <span class="edu-school">Alibaba, Beijing</span>
+    <span class="edu-year">2022.07 – Present</span>
+  </div>
+</div>
 
-## Research Experience
-
-* **2019.09 – 2022.06**: M.S. Student, Institute of Automation, Chinese Academy of Sciences
-  * Built the Caged Monkey dataset (6,000+ images, 600+ videos) for animal pose estimation and action recognition
-  * Proposed a target-region attention network based on SimpleBaseline (PRCV 2022)
-  * Proposed a global spatiotemporal encoding network based on transformers (Journal of Graphics 2022)
+<div class="edu-row">
+  <img src="/images/logos/placeholder.png" alt="Microsoft Research Asia" class="edu-logo" />
+  <div class="edu-info">
+    <span class="edu-degree">Research Intern</span>
+    <span class="edu-school">Microsoft Research Asia, Beijing</span>
+    <span class="edu-year">2021.06 – 2022.04</span>
+  </div>
+</div>
 
 ## Publications
 
