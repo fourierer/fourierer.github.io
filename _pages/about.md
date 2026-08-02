@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an algorithm engineer at **Alibaba Health**, working on computer vision and multimodal understanding for e-commerce and medical scenarios. My work focuses on:
+I am an algorithm engineer at **Alibaba**, working on computer vision and multimodal understanding for e-commerce and medical scenarios. My work focuses on:
 
 - **OCR for medical scenarios**: text-line detection and recognition for medical PDF books, drug instructions, and product images (DBNet + TrOCR), achieving commercial-grade accuracy.
 - **Multimodal LLM information extraction**: attribute extraction for e-commerce using SFT and self-developed DPA-GRPO on InternVL3-38B.
@@ -20,7 +20,7 @@ I am an algorithm engineer at **Alibaba Health**, working on computer vision and
 
 ## Work Experience
 
-* **2022.07 – Present**: Algorithm Engineer (P6), Alibaba Health, Beijing
+* **2022.07 – Present**: Algorithm Engineer (P6), Alibaba, Beijing
   * Medical-scene OCR (DBNet + TrOCR), multimodal LLM attribute extraction (InternVL3-38B with SFT and self-developed DPA-GRPO), and AIGC spatial reasoning & screening (Qwen2.5-VL-3B with SFT and self-developed HCM-GRPO)
 * **2021.06 – 2022.04**: Research Intern, Microsoft Research Asia, Beijing
   * Proposed TSRFormer, a point-regression based table structure recognition method with transformers (ACM MM 2022)

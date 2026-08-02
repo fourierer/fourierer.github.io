@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Sun Zheng"
 title_separator          : "-"
 name                     : &name "Sun Zheng"
@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Algorithm engineer working on OCR, multimodal large language models, and visual understanding for e-commerce."
   location         : "Beijing, China"
-  employer         : "Alibaba Health"
+  employer         : "Alibaba"
   uri              : # URL
   email            : "sunzheng2019@gmail.com" 
 
