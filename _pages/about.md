@@ -44,7 +44,7 @@ I am an algorithm engineer at **Alibaba**, working on computer vision and multim
 ## Work Experience
 
 <div class="edu-row">
-  <img src="/images/logos/placeholder.png" alt="Alibaba" class="edu-logo" />
+  <img src="/images/logos/alibaba.png" alt="Alibaba" class="edu-logo" />
   <div class="edu-info">
     <span class="edu-degree">Algorithm Engineer (P6)</span>
     <span class="edu-school">Alibaba, Beijing</span>
@@ -53,7 +53,7 @@ I am an algorithm engineer at **Alibaba**, working on computer vision and multim
 </div>
 
 <div class="edu-row">
-  <img src="/images/logos/placeholder.png" alt="Microsoft Research Asia" class="edu-logo" />
+  <img src="/images/logos/microsoft.png" alt="Microsoft Research Asia" class="edu-logo" />
   <div class="edu-info">
     <span class="edu-degree">Research Intern</span>
     <span class="edu-school">Microsoft Research Asia, Beijing</span>
