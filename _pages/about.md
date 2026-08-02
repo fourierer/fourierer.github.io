@@ -44,11 +44,20 @@ I am an algorithm engineer at **Alibaba**, working on computer vision and multim
 ## Work Experience
 
 <div class="edu-row">
-  <img src="/images/logos/alibaba.png" alt="Alibaba" class="edu-logo" />
+  <img src="/images/logos/antgroup.png" alt="Ant Group" class="edu-logo" />
   <div class="edu-info">
     <span class="edu-degree">Algorithm Engineer</span>
-    <span class="edu-school">Alibaba, Beijing</span>
-    <span class="edu-year">2022.07 – Present</span>
+    <span class="edu-school">Ant Group, Beijing</span>
+    <span class="edu-year">2026.09 – TBD</span>
+  </div>
+</div>
+
+<div class="edu-row">
+  <img src="/images/logos/alibaba.png" alt="Alibaba Group" class="edu-logo" />
+  <div class="edu-info">
+    <span class="edu-degree">Algorithm Engineer</span>
+    <span class="edu-school">Alibaba Group, Beijing</span>
+    <span class="edu-year">2022.07 – 2026.08</span>
   </div>
 </div>
 
