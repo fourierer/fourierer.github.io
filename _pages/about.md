@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an algorithm engineer at **Alibaba**, working on computer vision and multimodal understanding for e-commerce and medical scenarios. My work focuses on:
+I am an algorithm engineer at **Alibaba Group**, working on computer vision and multimodal understanding for e-commerce and medical scenarios. My work focuses on:
 
 - **OCR for medical scenarios**: text-line detection and recognition for medical PDF books, drug instructions, and product images (DBNet + TrOCR), achieving commercial-grade accuracy.
 - **Multimodal LLM information extraction**: attribute extraction for e-commerce using SFT and self-developed DPA-GRPO on InternVL3-38B.
