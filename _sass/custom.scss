@@ -1,0 +1,109 @@
+/* ==========================================================================
+   CUSTOM TYPOGRAPHY & COLOR POLISH
+   ========================================================================== */
+
+/* Headings with theme accent color */
+h1, h2, h3, h4, h5 {
+  color: var(--global-link-color, var(--global-base-color));
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.1em;
+  letter-spacing: 0.01em;
+}
+
+h2 {
+  padding-bottom: 0.25em;
+  border-bottom: 2px solid var(--global-border-color, var(--global-base-color));
+  margin-top: 1.6em;
+}
+
+h3 {
+  color: var(--global-base-color);
+  margin-top: 1.3em;
+}
+
+/* Accent text */
+strong {
+  color: var(--global-base-color);
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: var(--global-base-color);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--global-link-color-hover, var(--global-base-color));
+  text-decoration: underline;
+  text-decoration-color: var(--global-base-color);
+  text-underline-offset: 3px;
+}
+
+/* List markers in accent color */
+li::marker {
+  color: var(--global-base-color);
+}
+
+/* Publication-like list items */
+ul li {
+  margin-bottom: 0.45em;
+  line-height: 1.55;
+}
+
+/* Horizontal rules with accent gradient */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, var(--global-base-color), transparent);
+  margin: 1.8em 0;
+}
+
+/* Intro paragraph emphasis */
+.page__content > p:first-of-type {
+  font-size: 1.06em;
+  line-height: 1.7;
+}
+
+/* Sidebar name accent */
+.author__name {
+  color: var(--global-base-color);
+  font-weight: 600;
+}
+
+/* Archive item titles */
+.archive__item-title a {
+  color: var(--global-link-color, var(--global-base-color));
+}
+
+.archive__item-title a:hover {
+  color: var(--global-base-color);
+}
+
+/* Nav masthead active state */
+.masthead__menu-item a:hover {
+  color: var(--global-base-color);
+}
+
+/* Dark theme refinements */
+html[data-theme="dark"] {
+  h2 {
+    border-bottom-color: var(--global-dark-border-color, #444);
+  }
+
+  a {
+    color: var(--global-base-color);
+  }
+
+  a:hover {
+    color: #fff;
+    text-decoration-color: var(--global-base-color);
+  }
+
+  strong {
+    color: var(--global-base-color);
+  }
+}
