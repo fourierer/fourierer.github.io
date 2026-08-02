@@ -95,7 +95,3 @@ I am an algorithm engineer at **Alibaba**, working on computer vision and multim
   </div>
 </div>
 
-## Skills
-
-* Programming languages: Python, SQL
-* Deep learning frameworks: PyTorch

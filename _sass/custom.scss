@@ -1,144 +1,245 @@
 /* ==========================================================================
-   CUSTOM TYPOGRAPHY & COLOR POLISH
+   EDITORIAL ACADEMIC — CUSTOM DESIGN SYSTEM
+   A restrained, magazine-like aesthetic: paper-white ground,
+   serif display type, hairline rules, single accent color.
    ========================================================================== */
 
-/* Headings with theme accent color */
+/* ---------- Palette ---------- */
+:root {
+  --paper        : #faf9f7;
+  --ink          : #1c1a17;
+  --ink-soft     : #6f6a63;
+  --ink-faint    : #a39d94;
+  --accent       : #8c3a24;
+  --accent-dark  : #6e2c1b;
+  --hairline     : #e4e0d9;
+  --card-bg      : #ffffff;
+
+  --global-base-color            : var(--accent);
+  --global-bg-color              : var(--paper);
+  --global-footer-bg-color       : var(--ink);
+  --global-border-color          : var(--hairline);
+  --global-dark-border-color     : var(--hairline);
+  --global-link-color            : var(--ink);
+  --global-link-color-hover      : var(--accent);
+  --global-link-color-visited    : var(--accent);
+  --global-masthead-link-color   : var(--ink);
+  --global-masthead-link-color-hover : var(--accent);
+  --global-text-color            : var(--ink);
+  --global-text-color-light      : var(--ink-soft);
+  --global-thead-color           : #f1eeea;
+}
+
+html[data-theme="dark"] {
+  --paper        : #171512;
+  --ink          : #e8e4dd;
+  --ink-soft     : #9c968c;
+  --ink-faint    : #6b665e;
+  --accent       : #d29a7e;
+  --accent-dark  : #e8b89e;
+  --hairline     : #2e2b27;
+  --card-bg      : #1e1c18;
+
+  --global-base-color            : var(--accent);
+  --global-bg-color              : var(--paper);
+  --global-footer-bg-color       : #0f0e0c;
+  --global-border-color          : var(--hairline);
+  --global-dark-border-color     : var(--hairline);
+  --global-link-color            : var(--ink);
+  --global-link-color-hover      : var(--accent);
+  --global-link-color-visited    : var(--accent);
+  --global-masthead-link-color   : var(--ink);
+  --global-masthead-link-color-hover : var(--accent);
+  --global-text-color            : var(--ink);
+  --global-text-color-light      : var(--ink-soft);
+  --global-thead-color           : #26231f;
+}
+
+/* ---------- Typography ---------- */
+body {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Songti SC", serif;
+  color: var(--ink);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
 h1, h2, h3, h4, h5 {
-  color: var(--global-link-color, var(--global-base-color));
-  font-weight: 600;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-weight: 500;
+  color: var(--ink);
+  letter-spacing: -0.01em;
 }
 
 h1 {
-  font-size: 2.1em;
-  letter-spacing: 0.01em;
+  font-size: 2.6em;
+  line-height: 1.15;
+  margin-bottom: 0.3em;
 }
 
 h2 {
-  padding-bottom: 0.25em;
-  border-bottom: 2px solid var(--global-border-color, var(--global-base-color));
-  margin-top: 1.6em;
+  font-size: 1.5em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-top: 2.6em;
+  margin-bottom: 1.1em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--hairline);
+  text-transform: uppercase;
+  font-size: 0.95em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif;
+  letter-spacing: 0.14em;
+  color: var(--ink-soft);
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 3em;
+  height: 2px;
+  background: var(--accent);
+  margin-top: 0.55em;
 }
 
 h3 {
-  color: var(--global-base-color);
-  margin-top: 1.3em;
+  font-size: 1.15em;
+  color: var(--ink);
+  margin-top: 1.8em;
 }
 
-/* Accent text */
 strong {
-  color: var(--global-base-color);
+  color: var(--ink);
   font-weight: 600;
 }
 
-/* Links */
+/* ---------- Links ---------- */
 a {
-  color: var(--global-base-color);
-  transition: color 0.2s ease;
+  color: var(--ink);
+  transition: color 0.18s ease;
+  text-decoration: none;
 }
 
 a:hover {
-  color: var(--global-link-color-hover, var(--global-base-color));
-  text-decoration: underline;
-  text-decoration-color: var(--global-base-color);
-  text-underline-offset: 3px;
+  color: var(--accent);
 }
 
-/* List markers in accent color */
+.page__content a {
+  border-bottom: 1px solid var(--hairline);
+  transition: border-color 0.18s ease, color 0.18s ease;
+}
+
+.page__content a:hover {
+  border-bottom-color: var(--accent);
+}
+
+/* ---------- Intro ---------- */
+.page__content > p:first-of-type {
+  font-size: 1.13em;
+  line-height: 1.75;
+  color: var(--ink);
+  max-width: 52em;
+}
+
+.page__content > p:first-of-type strong {
+  color: var(--accent);
+}
+
+/* ---------- Lists ---------- */
+.page__content ul {
+  padding-left: 1.1em;
+}
+
+.page__content li {
+  margin-bottom: 0.5em;
+  line-height: 1.65;
+}
+
 li::marker {
-  color: var(--global-base-color);
+  color: var(--accent);
 }
 
-/* Publication-like list items */
-ul li {
-  margin-bottom: 0.45em;
+/* ---------- Masthead ---------- */
+.masthead {
+  background: var(--paper);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.masthead__inner-wrap {
+  max-width: 64em;
+}
+
+.masthead__menu-item a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.82em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.masthead__menu-item a:hover {
+  color: var(--accent);
+}
+
+/* ---------- Sidebar ---------- */
+.sidebar {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif;
+}
+
+.author__name {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 1.35em;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.author__bio {
+  color: var(--ink-soft);
+  font-size: 0.9em;
   line-height: 1.55;
 }
 
-/* Horizontal rules with accent gradient */
-hr {
-  border: none;
-  height: 2px;
-  background: linear-gradient(to right, var(--global-base-color), transparent);
-  margin: 1.8em 0;
+.author__urls a {
+  color: var(--ink-soft);
+  font-size: 0.85em;
 }
 
-/* Intro paragraph emphasis */
-.page__content > p:first-of-type {
-  font-size: 1.06em;
-  line-height: 1.7;
+.author__urls a:hover {
+  color: var(--accent);
 }
 
-/* Sidebar name accent */
-.author__name {
-  color: var(--global-base-color);
-  font-weight: 600;
+.author__avatar img {
+  border-radius: 50%;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
 }
 
-/* Archive item titles */
-.archive__item-title a {
-  color: var(--global-link-color, var(--global-base-color));
-}
-
-.archive__item-title a:hover {
-  color: var(--global-base-color);
-}
-
-/* Nav masthead active state */
-.masthead__menu-item a:hover {
-  color: var(--global-base-color);
-}
-
-/* Dark theme refinements */
-html[data-theme="dark"] {
-  h2 {
-    border-bottom-color: var(--global-dark-border-color, #444);
-  }
-
-  a {
-    color: var(--global-base-color);
-  }
-
-  a:hover {
-    color: #fff;
-    text-decoration-color: var(--global-base-color);
-  }
-
-  strong {
-    color: var(--global-base-color);
-  }
-}
-
-/* ==========================================================================
-   EDUCATION ROWS & PUBLICATION ROWS
-   ========================================================================== */
-
-/* Education entries: logo + degree info side by side */
+/* ---------- Education rows ---------- */
 .edu-row {
   display: flex;
   align-items: center;
-  gap: 1.2em;
-  padding: 0.9em 1em;
-  margin: 0.6em 0;
-  border: 1px solid var(--global-border-color, #ddd);
-  border-radius: 8px;
-  background: var(--global-bg-color, #fff);
-  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  gap: 1.4em;
+  padding: 1.1em 0.2em;
+  border-bottom: 1px solid var(--hairline);
+  background: transparent;
+  transition: padding-left 0.25s ease, border-color 0.25s ease;
+}
+
+.edu-row:first-of-type {
+  border-top: 1px solid var(--hairline);
 }
 
 .edu-row:hover {
-  border-color: var(--global-base-color);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-color: var(--accent);
+  padding-left: 0.5em;
 }
 
 .edu-logo {
-  width: 56px;
-  height: 56px;
+  width: 52px;
+  height: 52px;
   object-fit: contain;
   flex-shrink: 0;
   border-radius: 50%;
   background: #fff;
-  padding: 3px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  padding: 2px;
+  border: 1px solid var(--hairline);
 }
 
 .edu-info {
@@ -148,89 +249,112 @@ html[data-theme="dark"] {
 }
 
 .edu-degree {
-  font-weight: 600;
-  color: var(--global-link-color, var(--global-base-color));
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-weight: 500;
+  font-size: 1.08em;
+  color: var(--ink);
 }
 
 .edu-school {
-  color: var(--global-text-color, inherit);
-  font-size: 0.95em;
+  color: var(--ink-soft);
+  font-size: 0.92em;
 }
 
 .edu-year {
-  color: var(--global-text-color-light, #888);
-  font-size: 0.85em;
-  letter-spacing: 0.02em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--ink-faint);
+  font-size: 0.78em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 0.15em;
 }
 
-/* Publication entries: thumbnail + title/venue side by side */
+/* ---------- Publication rows ---------- */
 .pub-row {
   display: flex;
   align-items: flex-start;
-  gap: 1.4em;
-  padding: 1em;
-  margin: 0.8em 0;
-  border: 1px solid var(--global-border-color, #ddd);
-  border-radius: 8px;
-  background: var(--global-bg-color, #fff);
-  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  gap: 1.8em;
+  padding: 1.4em 0.2em;
+  border-bottom: 1px solid var(--hairline);
+  background: transparent;
+  transition: padding-left 0.25s ease, border-color 0.25s ease;
+}
+
+.pub-row:first-of-type {
+  border-top: 1px solid var(--hairline);
 }
 
 .pub-row:hover {
-  border-color: var(--global-base-color);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  border-color: var(--accent);
+  padding-left: 0.5em;
 }
 
 .pub-img {
-  width: 220px;
-  max-width: 40%;
+  width: 200px;
+  max-width: 38%;
   height: auto;
   object-fit: contain;
   flex-shrink: 0;
-  border-radius: 6px;
-  border: 1px solid var(--global-dark-border-color, #eee);
+  border: 1px solid var(--hairline);
   background: #fff;
 }
 
 .pub-info {
   display: flex;
   flex-direction: column;
-  gap: 0.35em;
-  padding-top: 0.2em;
+  gap: 0.5em;
+  padding-top: 0.1em;
 }
 
 .pub-title {
-  font-weight: 600;
-  color: var(--global-link-color, var(--global-base-color));
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-weight: 500;
+  font-size: 1.12em;
   line-height: 1.45;
+  color: var(--ink);
+  transition: color 0.2s ease;
+}
+
+.pub-row:hover .pub-title {
+  color: var(--accent);
 }
 
 .pub-venue {
-  color: var(--global-text-color-light, #888);
-  font-size: 0.95em;
-  line-height: 1.5;
+  color: var(--ink-soft);
+  font-size: 0.92em;
+  line-height: 1.55;
 }
 
-/* Dark theme adjustments */
-html[data-theme="dark"] {
-  .edu-logo, .pub-img {
-    background: #fff;
-  }
-
-  .edu-row, .pub-row {
-    background: var(--global-bg-color, #252a34);
-    border-color: var(--global-dark-border-color, #444);
-  }
+/* ---------- Footer ---------- */
+.page__footer {
+  border-top: 1px solid var(--hairline);
 }
 
-/* Mobile: stack pub image on top */
+.page__footer-follow ul {
+  border: none;
+}
+
+.page__footer a {
+  color: var(--ink-soft);
+}
+
+.page__footer a:hover {
+  color: var(--accent);
+}
+
+/* ---------- Responsive ---------- */
 @media (max-width: 600px) {
   .pub-row {
     flex-direction: column;
+    gap: 0.9em;
   }
 
   .pub-img {
     width: 100%;
     max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2em;
   }
 }
