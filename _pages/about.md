@@ -46,7 +46,7 @@ I am an algorithm engineer at **Alibaba**, working on computer vision and multim
 <div class="edu-row">
   <img src="/images/logos/alibaba.png" alt="Alibaba" class="edu-logo" />
   <div class="edu-info">
-    <span class="edu-degree">Algorithm Engineer (P6)</span>
+    <span class="edu-degree">Algorithm Engineer</span>
     <span class="edu-school">Alibaba, Beijing</span>
     <span class="edu-year">2022.07 – Present</span>
   </div>
