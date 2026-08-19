@@ -6,9 +6,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an algorithm engineer at **Kuaishou**, working on multimodal LLM content safety and adversarial smuggling attack. Previously, I worked at **Alibaba Group** on computer vision and multimodal understanding for e-commerce and medical scenarios.
+I am an algorithm engineer at **Kuaishou Technology**, working on multimodal LLM content safety and adversarial smuggling attack. Previously, I worked at **Alibaba Group** on computer vision and multimodal understanding for e-commerce and medical scenarios.
 
-**At Kuaishou:**
+**At Kuaishou Technology:**
 
 - **Multimodal LLM content safety**: safeguarding generated and user-uploaded multimodal content with large language models.
 - **Adversarial Smuggling Attack**: detecting and defending against adversarial content that evades moderation models.
@@ -51,10 +51,10 @@ I am an algorithm engineer at **Kuaishou**, working on multimodal LLM content sa
 ## Work Experience
 
 <div class="edu-row">
-  <img src="/images/logos/kuaishou.png" alt="Kuaishou" class="edu-logo" />
+  <img src="/images/logos/kuaishou.png" alt="Kuaishou Technology" class="edu-logo" />
   <div class="edu-info">
     <span class="edu-degree">Algorithm Engineer</span>
-    <span class="edu-school">Kuaishou, Beijing</span>
+    <span class="edu-school">Kuaishou Technology, Beijing</span>
     <span class="edu-year">2026.09 – TBD</span>
   </div>
 </div>
