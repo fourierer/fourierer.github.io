@@ -6,7 +6,14 @@ redirect_from:
   - /about.html
 ---
 
-I am an algorithm engineer at **Alibaba Group**, working on computer vision and multimodal understanding for e-commerce and medical scenarios. My work focuses on:
+I am an algorithm engineer at **Kuaishou**, working on multimodal LLM content safety and adversarial smuggling attack. Previously, I worked at **Alibaba Group** on computer vision and multimodal understanding for e-commerce and medical scenarios.
+
+**At Kuaishou:**
+
+- **Multimodal LLM content safety**: safeguarding generated and user-uploaded multimodal content with large language models.
+- **Adversarial Smuggling Attack**: detecting and defending against adversarial content that evades moderation models.
+
+**At Alibaba Group:**
 
 - **OCR for medical scenarios**: text-line detection and recognition for medical PDF books, drug instructions, and product images (DBNet + TrOCR), achieving commercial-grade accuracy.
 - **Multimodal LLM information extraction**: attribute extraction for e-commerce using SFT and self-developed DPA-GRPO on InternVL3-38B.
@@ -44,10 +51,10 @@ I am an algorithm engineer at **Alibaba Group**, working on computer vision and 
 ## Work Experience
 
 <div class="edu-row">
-  <img src="/images/logos/antgroup.png" alt="Ant Group" class="edu-logo" />
+  <img src="/images/logos/kuaishou.png" alt="Kuaishou" class="edu-logo" />
   <div class="edu-info">
     <span class="edu-degree">Algorithm Engineer</span>
-    <span class="edu-school">Ant Group, Beijing</span>
+    <span class="edu-school">Kuaishou, Beijing</span>
     <span class="edu-year">2026.09 – TBD</span>
   </div>
 </div>
